@@ -1,7 +1,9 @@
 import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
 import Experience from "./components/Experience.jsx";
 import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Project from "./components/Project.jsx";
 import Technologies from "./components/Technologies.jsx";
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
         <About />
         <Technologies />
         <Experience />
+        <Project />
+        <Contact />
       </div>
     </div>
   );
